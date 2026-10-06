@@ -1,0 +1,6 @@
+<launch>
+    <!--启动海龟仿真器-->
+    <node pkg="turtlesim" type="turtlesim_node" name="sim" output="screen"/>
+    <!--启动自动运动节点-->
+    <node pkg="turtle_auto" type="auto_move.py" name="auto_run" output="screen"/>
+</launch>

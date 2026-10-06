@@ -1,0 +1,6 @@
+path: D:/ROC/yolo/hulu
+train: images/train
+val: images/val
+
+names:
+  0: hulu
